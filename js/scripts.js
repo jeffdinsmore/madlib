@@ -18,6 +18,15 @@ $(document).ready(function() {
    $(".noun2").append(noun2Input);
    $(".ingVerb").append(ingVerbInput);
 
+   $(".pluralNoun1").text(pluralNoun1Input);
+   $(".pluralNoun2").text(pluralNoun2Input);
+   $(".pluralNoun3").text(pluralNoun3Input);
+   $(".pluralNoun4").text(pluralNoun4Input);
+   $(".verb1").text(verb1Input);
+   $(".noun1").text(noun1Input);
+   $(".noun2").text(noun2Input);
+   $(".ingVerb").text(ingVerbInput);
+
    $(".story").show();
    event.preventDefault();
   });
