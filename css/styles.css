@@ -1,10 +1,16 @@
 .form-control {
- width: 400px;
+  width: 400px;
 }
- span {
+span {
   font-style: italic;
   font-weight: bold;
- }
+}
 .story {
- display: none;
+  display: none;
+}
+.form-control {
+  width: 200px;
+}
+.header {
+  height: 40px;
 }
